@@ -1,0 +1,27 @@
+{
+	"auth": {
+		"reduxfullhooks6bd3bb94": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	},
+	"api": {
+		"reduxfullhooks": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"authConfig": {
+					"additionalAuthenticationProviders": [],
+					"defaultAuthentication": {
+						"authenticationType": "AMAZON_COGNITO_USER_POOLS",
+						"userPoolConfig": {
+							"userPoolId": "authreduxfullhooks6bd3bb94"
+						}
+					}
+				}
+			}
+		}
+	}
+}

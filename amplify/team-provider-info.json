@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-reduxfullhooks-dev-211938-authRole",
+            "UnauthRoleArn": "arn:aws:iam::421382785872:role/amplify-reduxfullhooks-dev-211938-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::421382785872:role/amplify-reduxfullhooks-dev-211938-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "amplify-reduxfullhooks-dev-211938-deployment",
+            "UnauthRoleName": "amplify-reduxfullhooks-dev-211938-unauthRole",
+            "StackName": "amplify-reduxfullhooks-dev-211938",
+            "StackId": "arn:aws:cloudformation:eu-west-1:421382785872:stack/amplify-reduxfullhooks-dev-211938/007aeab0-a9bd-11ea-b87f-02162fdbb6ee",
+            "AmplifyAppId": "d2yyhv9bpvq7ex"
+        },
+        "categories": {
+            "auth": {
+                "reduxfullhooks6bd3bb94": {}
+            }
+        }
+    }
+}
